@@ -3,26 +3,20 @@
 body {
     font-family: Roboto;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 a {
     text-decoration: none;
 }
 
-.padding {
-    display: flex;
-}
-
-.padding-left, .padding-right {
-    flex-grow: 1;
-    width: 150px;
-}
-
 .top {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px;
-    flex-grow: 3;
+    max-width: 70%;
 }
 
 .header {
@@ -32,6 +26,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
+    gap: 30px;
 }
 
 .header a, .hero-sub {
@@ -53,12 +48,14 @@ ul {
     align-items: center;
     gap: 100px;
     padding: 100px 0px;
+    flex-wrap: wrap;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .hero-text{
