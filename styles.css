@@ -54,11 +54,11 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-bottom: -8px;
 }
 
 .intro p {
-    margin: 8px 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .signup {
