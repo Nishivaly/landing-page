@@ -12,16 +12,20 @@ a {
 .top {
     display: flex;
     flex-direction: column;
-    /* gap: 30px; */
-    /* justify-content: space-around; */
     padding: 0px 200px;
 }
 
 .header {
     font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header a, .intro p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
@@ -48,6 +52,8 @@ ul {
 
 .awesome{
     font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .intro p {
