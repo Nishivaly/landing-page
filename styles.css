@@ -44,7 +44,7 @@ ul {
 
 .below-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 100px;
     padding: 100px 0px;
