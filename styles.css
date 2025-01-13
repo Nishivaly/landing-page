@@ -23,7 +23,7 @@ a {
     align-items: center;
 }
 
-.header a, .intro p {
+.header a, .hero-sub {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -50,15 +50,14 @@ ul {
     flex-wrap: wrap;
 }
 
-.awesome{
+.hero-text{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.intro p {
-    margin-top: 0px;
-    margin-bottom: 5px;
+.hero-sub {
+    margin-bottom: 6px;
 }
 
 .signup {
