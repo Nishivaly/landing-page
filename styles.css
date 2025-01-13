@@ -5,8 +5,20 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    /* justify-content: space-around; */
+    padding: 0px 200px;
+}
+
 .header {
-    color: white;
+    font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,8 +29,42 @@ ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    gap: 20px
 }
 
 .below-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 0px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.awesome{
+    font-size: 48px;
+}
+
+.intro p {
+    margin: 8px 0px;
+}
+
+.signup {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 140px;
+}
+
+.below-top{
+    background-color: white;
 }
