@@ -156,16 +156,17 @@ ul {
 .action-section .container {
     background-color: #3882F6;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 50px 100px;
-    max-width: 70%;
+    padding: 40px 100px;
     border-radius: 10px;
     margin: 0px 20px;
+    width: 50%;
 }
 
 .action-section .text {
-    min-width: 160px;
+    min-width: 200px;
+    margin-right: 20%;
 }
 
 .call {
@@ -188,5 +189,5 @@ ul {
     border: 2px #F9FAF8 solid;
     padding: 5px 25px;
     border-radius: 5px;
-    margin-left: 50px;
+    /* margin-left: 150px; */
 }
