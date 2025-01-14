@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden; /* Not sure about this */
 }
 
 a {
@@ -158,14 +159,13 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
-    /* gap: 50px; */
-    /* width: 70%; */
+    max-width: 70%;
     border-radius: 10px;
     margin: 0px 20px;
 }
 
 .action-section .text {
-    /* flex-basis: 200px; */
+    min-width: 160px;
 }
 
 .call {
@@ -182,7 +182,6 @@ ul {
 
 .action-section .sign-up {
     background-color: inherit;
-    /* max-height: 30px; */
     white-space: nowrap;
     color: #F9FAF8;
     font-weight: 700;
