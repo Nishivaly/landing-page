@@ -100,13 +100,16 @@ ul {
 .randominfo {
     margin-top: 50px;
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info-section .container {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 50px 30px;
+    padding: 50px 30px 100px 30px;
     flex-wrap: wrap;
 }
 
@@ -116,7 +119,6 @@ ul {
 }
 
 .info-section .entry img {
-    border: 2px blue solid;
+    border: 2px #3882F6 solid;
     border-radius: 20px;
-
 }
