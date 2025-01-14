@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: Roboto;
     background-color: #1F2937;
@@ -79,6 +84,15 @@ ul {
     width: 140px;
 }
 
-.below-top{
+.info-section{
     background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.images {
+    display: flex;
 }
