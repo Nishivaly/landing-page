@@ -193,6 +193,13 @@ ul {
 }
 
 .footer-section {
-    background-color: black;
     display: flex;
+    align-items: center;
+    padding: 45px;
+}
+
+.footer-section .text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
 }
