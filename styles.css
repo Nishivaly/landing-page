@@ -158,26 +158,26 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 100px;
+    padding: 40px 70px;
     border-radius: 10px;
     margin: 0px 20px;
-    width: 50%;
+    width: 55%;
 }
 
 .action-section .text {
-    min-width: 200px;
+    min-width: 250px;
     margin-right: 20%;
 }
 
 .call {
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .call-subtext {
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -185,9 +185,14 @@ ul {
     background-color: inherit;
     white-space: nowrap;
     color: #F9FAF8;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 18px;
     border: 2px #F9FAF8 solid;
     padding: 5px 25px;
     border-radius: 5px;
-    /* margin-left: 150px; */
+}
+
+.footer-section {
+    background-color: black;
+    display: flex;
 }
