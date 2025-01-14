@@ -12,8 +12,6 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    /* overflow: hidden; */
-    
 }
 
 a {
@@ -144,4 +142,19 @@ ul {
     font-style: normal;
     text-align: right;
     font-size: 24px;
+}
+
+.action-section {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.action-section .container {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
 }
