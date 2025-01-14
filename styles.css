@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.top {
+.top-section {
     display: flex;
     flex-direction: column;
     max-width: 70%;
@@ -88,11 +88,31 @@ ul {
     background-color: white;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     width: 100%;
 }
 
-.images {
+.randominfo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.info-section .container {
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.info-section .entry {
+    /* max-width: 200px */
+    text-align: center;
+    flex-basis: 150px;
+}
+
+.info-section .entry img {
+    border: 2px blue solid;
+    border-radius: 20px;
+
 }
